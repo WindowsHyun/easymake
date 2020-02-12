@@ -44,7 +44,7 @@ AR?=ar
 CPP_OPTION=-std=c++11 
 THREAD_OPTION=-pthread -Wreturn-type
 #default = release
-CPPFLAGS=-DNDEBUG -g
+CPPFLAGS=-D _RELEASE -DNDEBUG -g
 
 ####################################
 # get makefile command line argument
