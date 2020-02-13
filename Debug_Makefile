@@ -33,7 +33,7 @@ ARFLAGS=cr
 GEN_DEP_FLAG ?= -MP -MMD
 
 # do not use ./bin
-BUILD_ROOT?=bin
+BUILD_ROOT?=bin/Debug
 
 CXXEXT?=cpp
 CEXT?=c
